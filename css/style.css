@@ -770,3 +770,162 @@ body {
     z-index: 4;
 }
 /* Places styles end */
+
+
+
+
+
+
+
+
+
+
+
+/* Tours styles start */
+
+.tours {
+    margin-bottom: 139px;
+}
+
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+    margin-bottom: 77px;
+}
+
+.tours__info{
+    padding-left: 47px; 
+}
+.tour__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+
+.tour__desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.tours__more {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../img/svg/arrow-right-ico.svg) no-repeat 95%;
+    transition: .2s all;
+}
+
+.tours__more:hover, .tours__more:focus {
+    background: url(../img/svg/arrow-right-ico.svg) no-repeat right;
+}
+
+
+/* Tours styles end */
+
+
+
+
+/* Top styles start */
+
+.top{
+    margin-bottom: 86px;
+}
+
+.top__title {
+    margin-bottom: 54px;
+}
+
+.top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 58px;
+}
+
+.top__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.top__card-pic {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.top__card-stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 auto 0 0;
+}
+
+.top__card-likes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 20px;
+    background: url(../img/svg/heart-ico.svg) no-repeat right;
+    margin-right: 14px;
+}
+
+.top__card-comments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 23px;
+    background: url(../img/svg/message-ico.svg) no-repeat right;
+}
+
+.top__card-desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+}
+
+.top__card-more {
+    text-decoration: none;
+    margin: auto 0 0 0;
+}
+
+.top__card-more{
+    width: 118px;
+    text-decoration: none;
+    padding: 12px 19px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF; 
+    background: #006DFE;
+}
+
+.top__card-more:focus, .top__card-more:hover{
+    background:#0e66da;
+}
+
+
+/* Top styles end */
